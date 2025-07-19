@@ -1,0 +1,62 @@
+body{
+  background-color: rgba(0, 11, 163, 0.719);
+  margin: 0;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+color: white;
+padding: 25px 20px;
+font-size: larger;
+font-style: italic;
+}
+.rihgt{
+  display: flex;
+  margin-left: 80%; /* Reduce this to move Cart closer to Your Orders */
+  
+}
+#cart {
+  background-color: cyan;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 12px;
+}
+#orders {
+  background-color: cyan;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 12px;
+}
+#flw {
+  background-color: cyan;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 19px;
+  
+}
+#size{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+   font-family: 'Inter', sans-serif; /* or 'Helvetica Neue', 'Segoe UI', etc. */
+  font-weight: 700; /* bold for the top line */
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-align: center; 
+}
+#pay{
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #e2e2e2;
+  text-align: center;
+}
+.Tag{
+  margin-top: 15vh;
+}
